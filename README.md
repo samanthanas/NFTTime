@@ -1,6 +1,8 @@
-# NFTTime
+# NFTTime - The NFT Sale Price Predictor
 
-Let us help you get involved in the NFT world!
+A time series modeling tool to help you begin trading NFTs.
+
+![Cryptopunk NFTs](images/nftshutter.jpg)
 
 Author: Samantha Nasti
 
@@ -24,8 +26,22 @@ Author: Samantha Nasti
 
 ## Data
 
-- Source: Opensea API
-- EDA revealed high number of sales for high-volume assets and times of day where sales are high (importance of hourly data)
-- Datasets created for the collections being analyzed - collections are high-volume, must have 3 months worth of sales data available
-- NFTs are still so new that it is hard to collect data for years at a time but fortunately a month-worth of sales contains thousands of transactions
-- Data will be modeled with the past and validated in the present
+Opensea Events API: https://docs.opensea.io/reference/retrieving-asset-events
+
+This model allows you to select an NFT collection of your choice on Opensea and generate a forecast of future sales price (in Ethereum).
+
+I used the Opensea API to create a dataset for several different NFT collections (Cool Cats, Gutter Cat Gang, and Pudgy Penguins) to explore, test, and compare time series model performance on.
+
+I collected a minimum of 10,000 observations of sales transactions for each collection. I only selected collections that were found in Opensea's Top NFTs (By Volume) stats list, since our goal is to sell for a profit within a short time frame.
+
+### Data Preparation
+
+I used the Opensea API's "Events" collection to pull collection-specific sales transactions for various different NFTs. I then wrote functions to convert the dataframe index to a datetime index, and then another function to clean the dataset for easier EDA and engineer our target variable to be a readable Ethereum sale price. 
+
+Data collection, preparation, engineering and modeling was performed on 3 different NFT collections to compare modeling results.
+
+## Modeling
+
+For each collection I run an auto-arima grid search to find the best parameters. We created a function to store the optimal parameters from the gridsearch, and another function that inputs our gridsearch variables into our model ready to make predictions.
+
+
