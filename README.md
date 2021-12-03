@@ -44,4 +44,16 @@ Data collection, preparation, engineering and modeling was performed on 3 differ
 
 For each collection I run an auto-arima grid search to find the best parameters. We created a function to store the optimal parameters from the gridsearch, and another function that inputs our gridsearch variables into our model ready to make predictions.
 
+## Results
+
+Our model's forecasting performance on unseen data can be visualized below:
+
+![GCG Model Forecast](images/modelforecastunseen.png)
+
+Our final model has a RMSE of 0.93, compared to our baseline model RMSE score of 2.48.
+
+Our forecast, though improvable, is looking promising. We can use this forecast to make assisted NFT purchasing decisions. The model results allows us to assess today's purchase price of our NFT asset of interest, and then forecast the valuation of that NFT asset in the future.
+
+Let's demonstrate this concept in action. At the time of writing, on 12/2/2021, the Gutter Cat Gang floor is: 3.98 ETH. According to our model's forecast, the minimum valuation at the floor of Gutter Cat Gang is predicted to be worth more Ethereum than today's current floor price, at roughly 4.3 ETH. Based on these findings, we would recommend purchasing this asset for a profitable NFT swing trade.
+
 
