@@ -48,7 +48,7 @@ For each collection I run an auto-arima grid search to find the best parameters.
 
 Our model's forecasting performance on unseen data can be visualized below:
 
-![GCG Model Forecast](images/modelforecastunseen.png)
+![GCG Model Forecast](images/modelforecastunseen.PNG)
 
 Our final model has a RMSE of 0.93, compared to our baseline model RMSE score of 2.48.
 
