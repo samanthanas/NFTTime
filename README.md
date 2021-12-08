@@ -19,7 +19,7 @@ Considering the continuously surging volume of NFT sales, plus the history of av
     
 #### Risks:
    - The NFT Industry is new and uncertain: the "long term hold" investment strategy is currently higher risk than the pursuit of short term gains.
-   - This asset can be traded 24/7 - gap risk is intense ATM especially as space continues to develop "hype".
+   - This asset can be traded 24/7 - gap risk is high, especially as space continues to develop "hype".
     
 #### Purpose of this Model:
    - Capture prices for NFT "flipping" (swing trading)
@@ -62,7 +62,7 @@ According to our model's forecast, the minimum valuation at the floor of Gutter 
 
 The mean of all predicted values on 19/2/2021 is approximated 4.44 ETH. If this trade continues to head in this direction, your one week trade would result in an 11% ROI. Not bad for a week-long hold!
 
-Based on these findings, I would recommend purchasing this asset for an NFT swing trade.
+Based on these findings, I would recommend purchasing an asset from this collection for an NFT swing trade.
 
 
 ## Conclusion
@@ -75,17 +75,19 @@ Now that you know exactly how to use this model's functions from start to finish
 - Check to make sure the collection isn’t brand new – the more data you are able to feed into the model, the better it can evaluate patterns for its predictions. 
 - I highly recommend you keep your swings to a week or two at a time. This allows you to prevent gap risk. NFTs are tradable 24 hours a day, 7 days a week. So short-term trades are a better strategy for risk management. 
 
-
+For any additional questions, feel free to contact me at - samanthanasti@gmail.com. 
 
 ## Repository Navigation
 
+```
 ├── README.md                                     <- High-level overview of this project <br>
 ├── nft_price_predictions.ipynb                   <- Detailed primary project notebook<br>
 ├── notebooks<br>
-├   ├── NFT_EDA_1.ipynb                           <- Collection of data and exploratory data analysis in Jupyter notebook<br>
-├   ├── FSM_1.ipynb                               <- Modeling analysis in Jupyter notebook<br>
-├   ├── Model_Tests.ipynb                         <- Additional collection model testing in Jupyter notebook<br>
+    ├── NFT_EDA_1.ipynb                           <- Collection of data and exploratory data analysis in Jupyter notebook<br>
+    ├── FSM_1.ipynb                               <- Modeling analysis in Jupyter notebook<br>
+    ├── Model_Tests.ipynb                         <- Additional collection model testing in Jupyter notebook<br>
 ├── presentation.pdf                              <- PDF version of project presentation slides<br>
 ├── environment.yml                               <- Reproducibility yml file<br>
 ├── data                                          <- Folder containing project data collected and stored in CSVs<br>
 └── images                                        <- Folder containing the images used in project notebooks
+```
