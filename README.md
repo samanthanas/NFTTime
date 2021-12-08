@@ -43,7 +43,7 @@ Data collection, preparation, engineering and modeling was performed on 3 differ
 
 ## Modeling
 
-For each collection I run an auto-ARIMA grid search to find the best parameters. I created a function to store the optimal parameters from the gridsearch, and another function that inputs our gridsearch variables into our model ready to make predictions. To head over to the main project notebook and jump down to the gridsearch section to see it in action, [click here!](nft_price_predictions.ipynb#Model-Gridsearch)
+For each collection I run an auto-ARIMA grid search to find the best parameters. I created a function to store the optimal parameters from the gridsearch, and another function that inputs our gridsearch variables into our model ready to make predictions. To head over to the main project notebook and jump down to the gridsearch section to see it in action, [click here!](nft_price_predictions#Model-Gridsearch)
 
 
 ## Results
