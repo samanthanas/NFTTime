@@ -43,7 +43,7 @@ Data collection, preparation, engineering and modeling was performed on 3 differ
 
 ## Modeling
 
-For each collection I run an auto-arima grid search to find the best parameters. We created a function to store the optimal parameters from the gridsearch, and another function that inputs our gridsearch variables into our model ready to make predictions.
+For each collection I run an auto-ARIMA grid search to find the best parameters. I created a function to store the optimal parameters from the gridsearch, and another function that inputs our gridsearch variables into our model ready to make predictions. To jump over to the main project notebook and see the gridsearch in action, [click here!](nft_price_predictions.ipynb#jump_grid).
 
 
 ## Results
@@ -56,11 +56,22 @@ Our final model has a RMSE of 0.93, compared to our baseline model RMSE score of
 
 Our forecast, though improvable, is looking promising. We can use this forecast to make assisted NFT purchasing decisions. The model results allows us to assess today's purchase price of our NFT asset of interest, and then forecast the valuation of that NFT asset in the future.
 
-Let's demonstrate this concept in action. At the time of writing, on 12/2/2021, the Gutter Cat Gang floor is: 3.98 ETH. According to our model's forecast, the minimum valuation at the floor of Gutter Cat Gang is predicted to be worth more Ethereum than today's current floor price, at roughly 4.3 ETH. Based on these findings, we would recommend purchasing this asset for a profitable NFT swing trade.
+According to our model's forecast, the minimum valuation at the floor of Gutter Cat Gang is predicted to be worth more Ethereum than today's current floor price of 3.98 ETH.
+
+The mean of all predicted values on 19/2/2021 is approximated 4.44 ETH. If this trade continues to head in this direction, your one week trade would result in an 11% ROI. Not bad for a week-long hold!
+
+Based on these findings, I would recommend purchasing this asset for an NFT swing trade.
 
 
 ## Conclusion
 
+I recommend using this tool as a means of portfolio diversification. The NFTTime model allows you to select an NFT, and predict what the price of that asset will look like in a week or two for a swing trade, also known as a flip. NFTs exist in a new market filled with a lot of uncertainty, therefore the investments are very high risk. This is why I recommend using this tool for short term swing trades: to reduce risk, but still capitalize on the high possible returns that exist in this market. 
+
+Now that you know exactly how to use this model's functions from start to finish, here’s how I recommend you maximize your predictive potential with this tool:
+
+- Opensea has a list of high volume collections on their front page – make sure to invest in a high volume NFT collection if your intention is a swing trade. 
+- Check to make sure the collection isn’t brand new – the more data you are able to feed into the model, the better it can evaluate patterns for its predictions. 
+- I highly recommend you keep your swings to a week or two at a time. This allows you to prevent gap risk. NFTs are tradable 24 hours a day, 7 days a week. So short-term trades are a better strategy for risk management. 
 
 
 
