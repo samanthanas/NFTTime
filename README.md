@@ -18,12 +18,14 @@ Additionally, contemporary art investments, with an annual return of 14%, have [
 Considering the continuously surging volume of NFT sales, plus the history of average returns in contemporary art trading, there exists an incredible opportunity to diversify one’s portfolio and make generous returns in the highly liquid digital art space. 
     
 #### Risks:
-   - Industry is new and uncertain: "long term hold" investment strategy is higher risk than short term gains
-   - Asset can be traded 24/7 - gap risk is intense ATM especially as space continues to develop "hype"
+   - The NFT Industry is new and uncertain: the "long term hold" investment strategy is currently higher risk than the pursuit of short term gains.
+   - This asset can be traded 24/7 - gap risk is intense ATM especially as space continues to develop "hype".
     
 #### Purpose of this Model:
    - Capture prices for NFT "flipping" (swing trading)
-   - Help NFT traders forecast what their NFT purchase might look like a week or two later to provide a baseline to assess the approximate risk in this highly volatile space
+   - Help NFT traders forecast what their NFT purchase might look like a week or two later to provide a baseline to assess the approximate risk in this highly volatile space.
+   
+A detailed walkthrough of how to use this model from start to finish can be found [here](nft_price_predictions.ipynb) in the main project notebook.
 
 ## Data
 
@@ -43,7 +45,7 @@ Data collection, preparation, engineering and modeling was performed on 3 differ
 
 ## Modeling
 
-For each collection I run an auto-ARIMA grid search to find the best parameters. I created a function to store the optimal parameters from the gridsearch, and another function that inputs our gridsearch variables into our model ready to make predictions. To head over to the main project notebook and jump down to the gridsearch section to see it in action, [click here!](./nft_price_predictions.ipynb#Model-Gridsearch)
+For each collection I run an auto-ARIMA grid search to find the best parameters. I created a function to store the optimal parameters from the gridsearch, and another function that inputs our grid search variables into our model ready to make predictions. To head over to the main project notebook and see the grid search function in action, [click here!](./nft_price_predictions.ipynb#Model-Gridsearch) 
 
 
 ## Results
