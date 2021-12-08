@@ -8,7 +8,7 @@ Author: Samantha Nasti
 
 ## Overview
 
-NFTs, short for “non-fungible tokens”, are one of the hottest trending tradable commodities in the cryptocurrency space to date. To summarize, an NFT is a piece of digital artwork that exists on the blockchain. The [blockchain](https://www.investopedia.com/terms/b/blockchain.asp) is a distributed database that tracks the transaction history of a digital asset and makes the history of that asset unalterable – technology which is currently disrupting the payments industry. . The purchase of an NFT provides the buyer with verifiable ownership of the NFT purchased, and oftentimes access to additional benefits such as intellectual property rights and community perks. 
+NFTs, short for “non-fungible tokens”, are one of the hottest trending tradable commodities in the cryptocurrency space to date. To summarize, an NFT is a piece of digital artwork that exists on the blockchain. The [blockchain](https://www.investopedia.com/terms/b/blockchain.asp) is a distributed database that tracks the transaction history of a digital asset and makes the history of that asset unalterable – technology which is currently disrupting the payments industry. The purchase of an NFT provides the buyer with verifiable ownership of the NFT purchased, and oftentimes access to additional benefits such as intellectual property rights and community perks. 
 
 A single NFT typically belongs to a bigger collection by a particular artist or brand in the NFT ecosystem. Examples of popular NFT collections are Bored Ape Yacht Club and Cryptopunks, each containing 10,000 similarly-branded art tokens with unique individual properties. These collections have become so sought after that they have inspired the concept of NFT digital social club exclusivity, with each collection boasting A-list celebrity token owners and multi-million dollar ticket prices. 
 Anyone can create an NFT, which has inspired and empowered thousands of artists to create collections 
@@ -58,3 +58,19 @@ Our forecast, though improvable, is looking promising. We can use this forecast 
 Let's demonstrate this concept in action. At the time of writing, on 12/2/2021, the Gutter Cat Gang floor is: 3.98 ETH. According to our model's forecast, the minimum valuation at the floor of Gutter Cat Gang is predicted to be worth more Ethereum than today's current floor price, at roughly 4.3 ETH. Based on these findings, we would recommend purchasing this asset for a profitable NFT swing trade.
 
 
+## Conclusion
+
+
+
+## Repository Navigation
+
+├── README.md                                     <- High-level overview of this project
+├── nft_price_predictions.ipynb                   <- Detailed primary project notebook
+├── notebooks
+│   ├── data_cleaning.ipynb                       <- Data cleaning in Jupyter notebook
+│   ├── eda.ipynb                                 <- Exploratory data analysis in Jupyter notebook
+│   ├── modeling.ipynb                            <- Modeling analysis in Jupyter notebook
+├── presentation.pdf                              <- PDF version of project presentation slides
+├── environment.yml                               <- Reproducibility yml file
+├── data                                          <- Folder containing project data collected and stored in CSVs
+└── images                                        <- Folder containing the images used in project notebooks
