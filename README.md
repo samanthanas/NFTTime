@@ -41,7 +41,7 @@ I collected a minimum of 10,000 observations of sales transactions for each coll
 
 I used the Opensea API's "Events" collection to pull collection-specific sales transactions for various different NFTs. I then wrote functions to convert the dataframe index to a datetime index, and then another function to clean the dataset for easier EDA and engineer our target variable to be a readable Ethereum sale price. 
 
-![Gutter Cat Gang Data Visualization](images/eda1.png)
+![Gutter Cat Gang Data Visualization](images/gcgeda.png)
 
 The visualizations above are the output of the EDA function for the Gutter Cat Gang, the collection modeled in the primary notebook. As you can see, sales occur more frequently during certain week days and hours of the day. This information is fed into our model to assess the patterns of sales for that collection and generate predictions of the prices for future sales.
 
@@ -50,7 +50,7 @@ Data collection, preparation, engineering and modeling was performed on several 
 
 ## Modeling
 
-For each collection I run an auto-ARIMA grid search to find the best parameters. I created a function to store the optimal parameters from the gridsearch, and another function that inputs our grid search variables into our model ready to make predictions. To head over to the main project notebook and see the grid search function in action, [click here!](./nft_price_predictions.ipynb#Model-Gridsearch) 
+For each collection I run an auto-ARIMA grid search to find the best parameters. I created a function to store the optimal parameters from the gridsearch, and another function that inputs our grid search variables into our model ready to make predictions. To head over to the main project notebook and see the grid search function in action, [click here!](./nft_price_predictions.ipynb) 
 
 
 ## Results
