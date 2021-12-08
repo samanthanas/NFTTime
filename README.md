@@ -80,14 +80,14 @@ For any additional questions, feel free to contact me at - samanthanasti@gmail.c
 ## Repository Navigation
 
 ```
-├── README.md                                     <- High-level overview of this project <br>
-├── nft_price_predictions.ipynb                   <- Detailed primary project notebook<br>
-├── notebooks<br>
-    ├── NFT_EDA_1.ipynb                           <- Collection of data and exploratory data analysis in Jupyter notebook<br>
-    ├── FSM_1.ipynb                               <- Modeling analysis in Jupyter notebook<br>
-    ├── Model_Tests.ipynb                         <- Additional collection model testing in Jupyter notebook<br>
-├── presentation.pdf                              <- PDF version of project presentation slides<br>
-├── environment.yml                               <- Reproducibility yml file<br>
-├── data                                          <- Folder containing project data collected and stored in CSVs<br>
-└── images                                        <- Folder containing the images used in project notebooks
+├── README.md                              <- High-level overview of this project
+├── nft_price_predictions.ipynb            <- Detailed primary project notebook
+├── notebooks
+    ├── NFT_EDA_1.ipynb                    <- Collection of data and exploratory data analysis in Jupyter notebook
+    ├── FSM_1.ipynb                        <- Modeling analysis in Jupyter notebook
+    ├── Model_Tests.ipynb                  <- Additional collection model testing in Jupyter notebook
+├── presentation.pdf                       <- PDF version of project presentation slides
+├── environment.yml                        <- Reproducibility yml file
+├── data                                   <- Folder containing project data collected and stored in CSVs
+└── images                                 <- Folder containing the images used in project notebooks
 ```
