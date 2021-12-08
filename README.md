@@ -8,13 +8,14 @@ Author: Samantha Nasti
 
 ## Overview
 
-#### Why Trade NFTs? 
-    
-   - Large investment firms are moving money into crypto 
-   - Governments (like City of Miami) are incorporating crypto into city infrastructure
-   - Some renowned investment firms are beginning to buy NFTs (like Cryptopunks)
-   - Contemporary art has outperformed S&P for years
-   - Digital art is more liquid than physical art
+NFTs, short for “non-fungible tokens”, are one of the hottest trending tradable commodities in the cryptocurrency space to date. To summarize, an NFT is a piece of digital artwork that exists on the blockchain. The [blockchain](https://www.investopedia.com/terms/b/blockchain.asp) is a distributed database that tracks the transaction history of a digital asset and makes the history of that asset unalterable – technology which is currently disrupting the payments industry. . The purchase of an NFT provides the buyer with verifiable ownership of the NFT purchased, and oftentimes access to additional benefits such as intellectual property rights and community perks. 
+
+A single NFT typically belongs to a bigger collection by a particular artist or brand in the NFT ecosystem. Examples of popular NFT collections are Bored Ape Yacht Club and Cryptopunks, each containing 10,000 similarly-branded art tokens with unique individual properties. These collections have become so sought after that they have inspired the concept of NFT digital social club exclusivity, with each collection boasting A-list celebrity token owners and multi-million dollar ticket prices. 
+Anyone can create an NFT, which has inspired and empowered thousands of artists to create collections 
+and sell their art on Opensea, the first and largest NFT marketplace that just [crossed a 10 billion dollar sales volume](https://beincrypto.com/opensea-crosses-10-billion-in-all-time-sales-volumes/) in 2021. 
+
+Additionally, contemporary art investments, with an annual return of 14%, have [outperformed the S&P 500](https://www.cnbc.com/2021/05/27/there-are-unique-opportunities-in-art-says-one-asset-manager.html) (9.5% annual return) over the last 25 years , according to the Citi Global Art Market chart. 
+Considering the continuously surging volume of NFT sales, plus the history of average returns in contemporary art trading, there exists an incredible opportunity to diversify one’s portfolio and make generous returns in the highly liquid digital art space. 
     
 #### Risks:
    - Industry is new and uncertain: "long term hold" investment strategy is higher risk than short term gains
