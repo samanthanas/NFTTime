@@ -45,6 +45,7 @@ Data collection, preparation, engineering and modeling was performed on 3 differ
 
 For each collection I run an auto-arima grid search to find the best parameters. We created a function to store the optimal parameters from the gridsearch, and another function that inputs our gridsearch variables into our model ready to make predictions.
 
+
 ## Results
 
 Our model's forecasting performance on unseen data can be visualized below:
@@ -62,15 +63,16 @@ Let's demonstrate this concept in action. At the time of writing, on 12/2/2021, 
 
 
 
+
 ## Repository Navigation
 
-├── README.md                                     <- High-level overview of this project
-├── nft_price_predictions.ipynb                   <- Detailed primary project notebook
-├── notebooks
-│   ├── data_cleaning.ipynb                       <- Data cleaning in Jupyter notebook
-│   ├── eda.ipynb                                 <- Exploratory data analysis in Jupyter notebook
-│   ├── modeling.ipynb                            <- Modeling analysis in Jupyter notebook
-├── presentation.pdf                              <- PDF version of project presentation slides
-├── environment.yml                               <- Reproducibility yml file
-├── data                                          <- Folder containing project data collected and stored in CSVs
+├── README.md                                     <- High-level overview of this project <br>
+├── nft_price_predictions.ipynb                   <- Detailed primary project notebook<br>
+├── notebooks<br>
+│   ├── data_cleaning.ipynb                       <- Data cleaning in Jupyter notebook<br>
+│   ├── eda.ipynb                                 <- Exploratory data analysis in Jupyter notebook<br>
+│   ├── modeling.ipynb                            <- Modeling analysis in Jupyter notebook<br>
+├── presentation.pdf                              <- PDF version of project presentation slides<br>
+├── environment.yml                               <- Reproducibility yml file<br>
+├── data                                          <- Folder containing project data collected and stored in CSVs<br>
 └── images                                        <- Folder containing the images used in project notebooks
