@@ -39,7 +39,7 @@ I collected a minimum of 10,000 observations of sales transactions for each coll
 
 I used the Opensea API's "Events" collection to pull collection-specific sales transactions for various different NFTs. I then wrote functions to convert the dataframe index to a datetime index, and then another function to clean the dataset for easier EDA and engineer our target variable to be a readable Ethereum sale price. 
 
-Data collection, preparation, engineering and modeling was performed on 3 different NFT collections to compare modeling results.
+Data collection, preparation, engineering and modeling was performed on 3 different NFT collections to compare modeling results. For a detailed walkthrough from start to finish of the data preparation and modeling process, please see the primary [NFTTIME Project Notebook](https://github.com/samanthanas/NFTTime/blob/main/nft_price_predictions.ipynb). Other iterations of the modeling process, including testing on other collections, can be found [here](https://github.com/samanthanas/NFTTime/tree/main/notebooks) in the project repository notebooks folder.  
 
 ## Modeling
 
