@@ -69,9 +69,9 @@ Let's demonstrate this concept in action. At the time of writing, on 12/2/2021, 
 ├── README.md                                     <- High-level overview of this project <br>
 ├── nft_price_predictions.ipynb                   <- Detailed primary project notebook<br>
 ├── notebooks<br>
-│   ├── data_cleaning.ipynb                       <- Data cleaning in Jupyter notebook<br>
-│   ├── eda.ipynb                                 <- Exploratory data analysis in Jupyter notebook<br>
-│   ├── modeling.ipynb                            <- Modeling analysis in Jupyter notebook<br>
+   ├── NFT_EDA_1.ipynb                           <- Collection of data and exploratory data analysis in Jupyter notebook<br>
+   ├── FSM_1.ipynb                               <- Modeling analysis in Jupyter notebook<br>
+   ├── Model_Tests.ipynb                         <- Additional collection model testing in Jupyter notebook<br>
 ├── presentation.pdf                              <- PDF version of project presentation slides<br>
 ├── environment.yml                               <- Reproducibility yml file<br>
 ├── data                                          <- Folder containing project data collected and stored in CSVs<br>
