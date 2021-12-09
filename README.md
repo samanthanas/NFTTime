@@ -65,7 +65,7 @@ Our forecast, though improvable, is looking promising. We can use this forecast 
 
 According to our model's forecast, the minimum valuation at the floor of Gutter Cat Gang is predicted to be worth more Ethereum than today's current floor price of 3.98 ETH.
 
-The mean of all predicted values on 19/2/2021 is approximated 4.44 ETH. If this trade continues to head in this direction, your one week trade would result in an 11% ROI. Not bad for a week-long hold!
+The mean of all predicted values on 12/9/2021 is approximated 4.44 ETH. If this trade continues to head in this direction, your one week trade would result in an 11% ROI. Not bad for a week-long hold!
 
 Based on these findings, I would recommend purchasing an asset from this collection for an NFT swing trade.
 
